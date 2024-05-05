@@ -1,0 +1,49 @@
+[
+  {
+    "key": "ctrl+w v",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+w s",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+w c",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w t",
+    "command": "workbench.action.createTerminalEditor"
+  },
+  {
+    "key": "ctrl+w w",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+w shift+w",
+    "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "ctrl+w r",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+w shift+r",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+w c",
+    "command": "workbench.action.closeGroup",
+    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.closeSidebar",
+    "when": "sideBarVisible && sideBarFocus && !inputFocus"
+  },
+]
