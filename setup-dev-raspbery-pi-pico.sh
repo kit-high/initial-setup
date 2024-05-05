@@ -1,3 +1,5 @@
+#!/bin/bash
+set -u -e
 
 # https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html
 
