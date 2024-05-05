@@ -1,3 +1,6 @@
+#!/bin/bash
+set -u -e
+
 sudo apt update
 sudo apt -y install gh
 gh auth login
