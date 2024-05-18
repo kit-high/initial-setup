@@ -46,4 +46,12 @@
     "command": "workbench.action.closeSidebar",
     "when": "sideBarVisible && sideBarFocus && !inputFocus"
   },
+  {
+    "key": "pageup",
+    "command": "workbench.action.terminal.scrollUp",
+  },
+  {
+    "key": "pagedown",
+    "command": "workbench.action.terminal.scrollDown",
+  },
 ]
